@@ -1,7 +1,7 @@
 <template>
      <input type="text" v-model="newTodo.title"
      @keyup.enter="addTodo" autofocus="autofocus"
-      placeholder="Whaddya wanna get done mate?" class="new-todo">
+      placeholder="Whaddya wanna get done?" class="new-todo">
 </template>
 <script>
 import { mapGetters } from "vuex";

@@ -60256,7 +60256,7 @@ var render = function() {
     attrs: {
       type: "text",
       autofocus: "autofocus",
-      placeholder: "Whaddya wanna get done mate?"
+      placeholder: "Whaddya wanna get done?"
     },
     domProps: { value: _vm.newTodo.title },
     on: {
